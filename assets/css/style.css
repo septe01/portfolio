@@ -943,6 +943,7 @@ figure {
   display: table;
   overflow: hidden;
 }
+
 @media screen and (max-width: 768px) {
   .work {
     height: 400px;
@@ -957,11 +958,12 @@ figure {
   display: table-cell;
   vertical-align: middle;
   height: 270px;
-  background: #fff;
+  background: #33333399;
   opacity: 0;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
+  padding: 0 5px;
 }
 .work .desc h3 {
   font-size: 20px;
@@ -969,10 +971,17 @@ figure {
   transition: transform 0.3s, opacity 0.3s;
   -webkit-transform: translate3d(0, -15px, 0);
   transform: translate3d(0, -15px, 0);
+  color: #fff;
 }
+
+.work .desc h4 {
+  font-size: 14px;
+  color: #fff;
+}
+
 .work .desc span {
   display: block;
-  color: #999999;
+  color: #ffffff99;
   font-size: 14px;
   -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
   transition: transform 0.3s, opacity 0.3s;
@@ -992,6 +1001,9 @@ figure {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
   }
+}
+.work:hover {
+  box-shadow: 0px 5px 35px 0px rgba(0, 0, 0, 0.3);
 }
 .work:hover .desc {
   opacity: 1;
