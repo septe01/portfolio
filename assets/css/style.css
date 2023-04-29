@@ -946,12 +946,12 @@ figure {
 
 @media screen and (max-width: 768px) {
   .work {
-    height: 400px;
+    /* height: 400px; */
   }
 }
 @media screen and (max-width: 480px) {
   .work {
-    height: 270px;
+    /* height: 270px; */
   }
 }
 .work .desc {
