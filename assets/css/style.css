@@ -989,22 +989,24 @@ figure {
   transform: translate3d(0, 15px, 0);
 }
 @media screen and (max-width: 768px) {
-  .work .desc {
+  .work:hover .desc {
     opacity: 1;
-    background: rgba(255, 255, 255, 0.6);
+    background: #33333399;
   }
-  .work .desc h3 {
+  .work:hover.desc h3 {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
   }
-  .work .desc span {
+  .work:hover .desc span {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
   }
 }
+
 .work:hover {
   box-shadow: 0px 5px 35px 0px rgba(0, 0, 0, 0.3);
 }
+
 .work:hover .desc {
   opacity: 1;
 }
