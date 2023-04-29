@@ -951,7 +951,7 @@ figure {
 }
 @media screen and (max-width: 480px) {
   .work {
-    /* height: 270px; */
+    height: 416px;
   }
 }
 .work .desc {
